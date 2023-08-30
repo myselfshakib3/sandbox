@@ -1,0 +1,44 @@
+@font-face {
+    font-family: urbanist-200;
+    src: url(./fonts/Urbanist-Thin.ttf);
+}
+
+@font-face {
+    font-family: urbanist-300;
+    src: url(./fonts/Urbanist-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: urbanist-400;
+    src: url(./fonts/Urbanist-Light.ttf);
+}
+
+@font-face {
+    font-family: urbanist-500;
+    src: url(./fonts/Urbanist-Regular.ttf);
+}
+
+@font-face {
+    font-family: urbanist-600;
+    src: url(./fonts/Urbanist-Medium.ttf);
+}
+
+@font-face {
+    font-family: urbanist-700;
+    src: url(./fonts/Urbanist-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: urbanist-800;
+    src: url(./fonts/Urbanist-Bold.ttf);
+}
+
+@font-face {
+    font-family: urbanist-Bold;
+    src: url(./fonts/Urbanist-Bold.ttf);
+}
+
+@font-face {
+    font-family: urbanist-ExBold;
+    src: url(./fonts/Urbanist-ExtraBold.ttf);
+}
