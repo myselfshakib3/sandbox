@@ -28,7 +28,7 @@
     }
 
     .nav-others{
-        flex-basis: 100px;
+        flex-basis: 150px;
     }
 
     .nav-search{
@@ -36,6 +36,9 @@
     }
     .search{
         padding: 15px;
+    }
+    .humb-menu-icon{
+        display: block;
     }
     .hero-grid{
         width: 100%;
@@ -190,6 +193,9 @@
     .nav-search{
         max-width: 100%;
     }
+    .humb-menu-icon{
+        display: block;
+    }
     .hero-grid h1{
         font-size: 32px;
     }
@@ -296,6 +302,9 @@
     }
     ul.nav-primaryMenu{
         display: none;
+    }
+    .humb-menu-icon{
+        display: block;
     }
     .border-bottom {
         width: 90% !important;

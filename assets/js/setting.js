@@ -10,6 +10,21 @@ function srchClose() {
 }
 
 
+//  HUMBURGER MENU OPEN & CLOSING
+
+function menuOpen() {
+    
+  document.getElementsByClassName("humb-menu-wrap")[0].style.width="100%";
+
+}
+
+function closeMenu() {
+  document.getElementsByClassName("humb-menu-wrap")[0].style.width="0%";
+}
+
+
+
+
 //  DETAILS OPEN & CLOSE
 //  HEADER & DETAILS SECTIONS
 

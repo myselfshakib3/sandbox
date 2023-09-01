@@ -12,7 +12,6 @@
     <!-- Uikit CSS -->
     <link rel="stylesheet" href="./vendors/css/uikit.min.css">
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="./vendors/css/animate.min.css">
     <link rel="stylesheet" href="./vendors/css/animate.css">
     <!-- Swipper-Slider CSS -->
     <link rel="stylesheet" href="./vendors/css/swiper-bundle.min.css">
@@ -105,12 +104,25 @@
                 <div class="nav-others">
                     <div class="nav-others-icons"><div onclick="dtlOpen()"><i class="fa-solid fa-circle-info"></i></div></div>
                     <div class="nav-others-icons"><div onclick="srchOpen()"><i class="fa-solid fa-magnifying-glass"></i></div></div>
+                    <div class="humb-menu-icon"><div onclick="menuOpen()"><i class="fa-solid fa-bars"></i></div></div>
                 </div>
 
             </nav>
         </div>
     </header>
 
+
+    <div class="humb-menu-wrap">
+        <div class="closeMenu" onclick="closeMenu();"><i class="fa-solid fa-xmark"></i></div>
+        <ul class="hum-burger-menu">
+            <li><a href="">demos</a></li>
+            <li><a href="">pages</a></li>
+            <li><a href="">projects</a></li>
+            <li><a href="">blogs</a></li>
+            <li><a href="">blocks</a></li>
+            <li><a href="">documentation</a></li>
+        </ul>
+    </div>
 
 
     <div class="nav-search">

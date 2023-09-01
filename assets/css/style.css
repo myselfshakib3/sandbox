@@ -487,6 +487,79 @@ ul.nav-primaryMenu > li > a i {
 }
 
 
+/* ==   HUM-BURGER MENU  */
+
+.humb-menu-icon{
+    display: none;
+}
+
+.humb-menu-icon > div i {
+    font-size: 20px;
+    color: var(--color-white);
+    padding: 5px;
+    transition: all .2s ease-in-out;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.humb-menu-icon > div:hover i {
+    color: hsl(0deg 0% 100% / 70%);
+}
+
+.humb-menu-wrap {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100vh;
+    background: #000000df;
+    z-index: 999;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+.closeMenu {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.closeMenu i {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    color: var(--color-white);
+    padding: 5px;
+    transition: all .2s ease-in-out;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    background: #ffffff1f;
+    float: right;
+}
+
+ul.hum-burger-menu {
+    padding: 10px;
+}
+
+ul.hum-burger-menu li {
+    list-style: none;
+}
+
+ul.hum-burger-menu li a {
+    color: #fff;
+    font-family: urbanist-600;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
 
 
 
