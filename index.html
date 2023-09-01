@@ -11,6 +11,10 @@
     <!-- Vendeors CSS Linking Start -->
     <!-- Uikit CSS -->
     <link rel="stylesheet" href="./vendors/css/uikit.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./vendors/css/animate.css">
+    <!-- Swipper-Slider CSS -->
+    <link rel="stylesheet" href="./vendors/css/swiper-bundle.min.css">
     <!-- Vendeors CSS Linking End -->
     <!-- Main CSS Link -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -28,23 +32,23 @@
                 </div>
 
                 <ul class="nav-primaryMenu">
-                    <li><a href="#">demos <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">demos</a></li>
                     <li><a href="#">pages <i class="fa-solid fa-angle-down"></i></a>
                     
                         <ul class="nav-secondaryMenu">
-                            <li><a href="">Services <i class="fa-solid fa-angle-right"></i></a></li>
-                            <li><a href="">About <i class="fa-solid fa-angle-right"></i></a></li>
-                            <li><a href="">Shop<i class="fa-solid fa-angle-right"></i></a></li>
-                            <li><a href="">Contact <i class="fa-solid fa-angle-right"></i></a></li>
-                            <li><a href="">Career<i class="fa-solid fa-angle-right"></i></a></li>
-                            <li><a href="">Utility<i class="fa-solid fa-angle-right"></i></a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">About </a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Career</a></li>
+                            <li><a href="">Utility</a></li>
                             <li><a href="">Pricing</a></li>
                         </ul>
 
                     </li>
                     <li><a href="#">projects <i class="fa-solid fa-angle-down"></i></a>
                     
-                        <div class="nav-secondaryMenu nav-secondaryMenu3">
+                        <div class="nav-secondaryMenu nav-secondaryMenu2">
                             <ul class="nav-secMn nav-secMn1">
                                 <li><h3>Project Page</h3></li>
                                 <li><a href="">Project I</a></li>
@@ -64,21 +68,42 @@
                     </li>
                     <li><a href="#">blog <i class="fa-solid fa-angle-down"></i></a>
                     
-                        <ul class="nav-secondaryMenu nav-secondaryMenu2">
+                        <ul class="nav-secondaryMenu nav-secondaryMenu3">
                             <li><a href="">Blog without Sidebar</a></li>
                             <li><a href="">Blog with Sidebar</a></li>
                             <li><a href="">Blog with Left Sidebar</a></li>
-                            <li><a href="">Blog Post <i class="fa-solid fa-angle-right"></i></a></li>
+                            <li><a href="">Blog Post</a></li>
                         </ul>
                     
                     </li>
-                    <li><a href="#">blocks <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li><a href="#">documentation <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">blocks <i class="fa-solid fa-angle-down"></i></a>
+                    
+                        <ul class="nav-secondaryMenu nav-secondaryMenu4">
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block1.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block2.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block3.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block4.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block5.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block6.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block7.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block8.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block9.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block10.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block11.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block12.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block13.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block14.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block15.svg" alt=""> <h3>About</h3> </a></li>
+                            <li class="nav-secMn-block"><a href=""> <img src="./images/block16.svg" alt=""> <h3>About</h3> </a></li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#">documentation</a></li>
                 </ul>
 
                 <div class="nav-others">
-                    <div class="nav-others-icons"><a href=""><i class="fa-solid fa-circle-info"></i></a></div>
-                    <div class="nav-others-icons"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                    <div class="nav-others-icons"><div onclick="dtlOpen()"><i class="fa-solid fa-circle-info"></i></div></div>
+                    <div class="nav-others-icons"><div onclick="srchOpen()"><i class="fa-solid fa-magnifying-glass"></i></div></div>
                 </div>
 
             </nav>
@@ -87,13 +112,61 @@
 
 
 
+    <div class="nav-search">
+        <div class="container">
+            <div class="search">
+                <div class="src-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" placeholder="Type keyword & hit enter">
+                <div class="close"><i onclick="srchClose()" class="fa-solid fa-xmark"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="nav-details">
+        <div class="nav-info">
+            <div class="nav-close"><h2>Sandbox</h2> <i onclick="dtlClose()" class="fa-solid fa-xmark"></i></div>
+            <p>Sandbox is a multipurpose HTML5 template with various layouts which will be a great solution for your business.</p>
+        </div>
+        <div class="nav-info">
+            <h3>Contact Info</h3>
+            <div class="nav-address">
+                <span>Moonshine St. 14/05</span>
+                <span>Light City, London</span>
+            </div>
+            <div class="nav-contact">
+                <a href="">info@email.com</a>
+                <a href="">00 (123) 456 78 90</a>
+            </div>
+        </div>
+        <div class="nav-info">
+            <h3>Learn more</h3>
+            <a href="">Our story</a>
+            <a href="">Teams of use</a>
+            <a href="">Privacy policy</a>
+            <a href="">Contact us</a>
+        </div>
+        <div class="nav-info">
+            <h3>Follow us</h3>
+            <div class="ft-social">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-dribbble"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
     <section id="hero">
         <div class="container hero-bg border-radius">
             <div class="hero-grid">
                 <h3>hello we are sandbox</h3>
-                <h1>Grow your business with our marketing solutions</h1>
-                <div class="btn-popup">
-                    <a href=""><i class="fa-solid fa-play"></i></a>
+                <h1 class="animate__animated animate__zoomIn">Grow your business with our marketing solutions</h1>
+                <div class="btn-popup animate__animated animate__fadeIn animate__delay-1s" uk-lightbox>
+                    <a href="https://www.youtube.com/watch?v=h57ImGSgdu0"><i class="fa-solid fa-play"></i></a>
                 </div>
             </div>
         </div>
@@ -244,7 +317,10 @@
                     <div class="team-container">
                         <div class="team-box">
                             <div class="team-progressbar prog-one">
-                                <svg viewBox="0 0 100 50" style="display: block; width: 100%;"><path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#eee" stroke-width="6" fill-opacity="0"></path><path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#555" stroke-width="6" fill-opacity="0" style="stroke-dasharray: 147.708, 147.708; stroke-dashoffset: 36.927;"></path></svg>
+                                <svg viewBox="0 0 100 50" style="display: block; width: 100%;">
+                                    <path d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#eee" stroke-width="6" fill-opacity="0"></path>
+                                    <path class="prog-one-path" d="M 50,50 m -47,0 a 47,47 0 1 1 94,0" stroke="#555" stroke-width="6" fill-opacity="0" style="stroke-dasharray: 147.708, 147.708; stroke-dashoffset: 36.927;"></path>
+                                </svg>
                                 <div class="percentage"> 75 <span>%</span> </div>
                             </div>
                             <div class="team-info">
@@ -306,31 +382,52 @@
                         </div>
                     </div>
 
-                    <div class="design-container">
-                        <div class="design-box">
-                            <div class="design-img"><img src="./images/design1.jpg" alt=""></div>
-                            <div class="design-info">
-                                <a href="">Cras Fermentum Sem</a>
-                                <span>Stationary</span>
+                    <div class="swiper design-container">
+
+                        <div class="swiper-wrapper" uk-lightbox="animation: slide">
+                            <div class="design-box swiper-slide">
+                                <div class="design-img"><img src="./images/design1.jpg" alt=""></div>
+                                <div class="design-info">
+                                    <a href="">Cras Fermentum Sem</a>
+                                    <span>Stationary</span>
+                                </div>
+                                <div class="design-show"><a href="./images/design1.jpg"><i class="fa-solid fa-plus"></i></a></div>
                             </div>
-                            <div class="design-show"><a href=""><i class="fa-solid fa-plus"></i></a></div>
-                        </div>
-                        <div class="design-box">
-                            <div class="design-img"><img src="./images/design2.jpg" alt=""></div>
-                            <div class="design-info">
-                                <a href="">Mollis Ipsum Mattis</a>
-                                <span>Magazine, Book</span>
+                            <div class="design-box swiper-slide">
+                                <div class="design-img"><img src="./images/design2.jpg" alt=""></div>
+                                <div class="design-info">
+                                    <a href="">Mollis Ipsum Mattis</a>
+                                    <span>Magazine, Book</span>
+                                </div>
+                                <div class="design-show"><a href="./images/design2.jpg"><i class="fa-solid fa-plus"></i></a></div>
                             </div>
-                            <div class="design-show"><a href=""><i class="fa-solid fa-plus"></i></a></div>
-                        </div>
-                        <div class="design-box">
-                            <div class="design-img"><img src="./images/design3.jpg" alt=""></div>
-                            <div class="design-info">
-                                <a href="">Ipsum Ultricies Cursus</a>
-                                <span>Packaging</span>
+                            <div class="design-box swiper-slide">
+                                <div class="design-img"><img src="./images/design3.jpg" alt=""></div>
+                                <div class="design-info">
+                                    <a href="">Ipsum Ultricies Cursus</a>
+                                    <span>Packaging</span>
+                                </div>
+                                <div class="design-show"><a href="./images/design3.jpg"><i class="fa-solid fa-plus"></i></a></div>
                             </div>
-                            <div class="design-show"><a href=""><i class="fa-solid fa-plus"></i></a></div>
+                            <div class="design-box swiper-slide">
+                                <div class="design-img"><img src="./images/design4.jpg" alt=""></div>
+                                <div class="design-info">
+                                    <a href="">Inseptos Euismod Egestas</a>
+                                    <span>Packaging</span>
+                                </div>
+                                <div class="design-show"><a href="./images/design4.jpg"><i class="fa-solid fa-plus"></i></a></div>
+                            </div>
+                            <div class="design-box swiper-slide">
+                                <div class="design-img"><img src="./images/design5.jpg" alt=""></div>
+                                <div class="design-info">
+                                    <a href="">Mollis Ipsum Mattis</a>
+                                    <span>Packaging</span>
+                                </div>
+                                <div class="design-show"><a href="./images/design5.jpg"><i class="fa-solid fa-plus"></i></a></div>
+                            </div>
                         </div>
+                        <div class="swiper-pagination"></div>
+
                     </div>
 
                 </div>
@@ -357,7 +454,7 @@
 
                     <div class="pricing-filter">
                         <span>Monthly</span>
-                        <div class="filtering"><div class="filter-circle"></div></div>
+                        <div class="filtering" uk-toggle="target: .toggle"><div class="filter-circle"></div></div>
                         <span>Yearly</span>
                     </div>
                     
@@ -365,8 +462,8 @@
                         <div class="pricing-box">
                             <div class="price">
                                 <span>$</span>
-                                <h2>9</h2>
-                                <span>/mo</span>
+                                <h2 class="toggle animate__animated animate__fadeInDown">9</h2><h2 class="toggle animate__animated animate__fadeInDown" hidden>99</h2>
+                                <span class="toggle animate__animated animate__fadeInDown">/mo</span><span class="toggle animate__animated animate__fadeInDown" hidden>/yr</span>
                             </div>
                             <p>Basic Plan</p>
                             <ul class="features">
@@ -382,8 +479,8 @@
                         <div class="pricing-box">
                             <div class="price">
                                 <span>$</span>
-                                <h2>19</h2>
-                                <span>/mo</span>
+                                <h2 class="toggle animate__animated animate__fadeInDown">19</h2><h2 class="toggle animate__animated animate__fadeInDown" hidden>199</h2>
+                                <span class="toggle animate__animated animate__fadeInDown">/mo</span><span class="toggle animate__animated animate__fadeInDown" hidden>/yr</span>
                             </div>
                             <p>Basic Plan</p>
                             <ul class="features">
@@ -399,8 +496,8 @@
                         <div class="pricing-box">
                             <div class="price">
                                 <span>$</span>
-                                <h2>49</h2>
-                                <span>/mo</span>
+                                <h2 class="toggle animate__animated animate__fadeInDown">49</h2><h2 class="toggle animate__animated animate__fadeInDown" hidden>499</h2>
+                                <span class="toggle animate__animated animate__fadeInDown">/mo</span><span class="toggle animate__animated animate__fadeInDown" hidden>/yr</span>
                             </div>
                             <p>Basic Plan</p>
                             <ul class="features">
@@ -466,6 +563,10 @@
 
 
 
+    <div class="totop"><a href="#hero"><i class="fa-solid fa-angle-up"></i></a></div>
+
+
+
     <footer>
         <div class="container bg-footer border-radius">
             <div class="wrap">
@@ -501,7 +602,8 @@
                         <h4 class="ft-title">Our Newsletter</h4>
                         <p>Subscribe to our newsletter to get our news & deals delivered to you.</p>
                         <div class="send">
-                            <input type="email" placeholder="Email">
+                            <input id="cnt" type="email">
+                            <label for="cnt">Email Address</label>
                             <input type="submit" value="Join">
                         </div>
                     </div>
@@ -517,6 +619,8 @@
     <!-- Uikit JS -->
     <script src="./vendors/js/uikit.min.js"></script>
     <script src="./vendors/js/uikit-icons.min.js"></script>
+    <!-- Swipper-Slider JS -->
+    <script src="./vendors/js/swiper-bundle.min.js"></script>
     <!-- Vendeors JS Linking End -->
     <!-- Main JS -->
     <script src="./assets/js/setting.js"></script>
