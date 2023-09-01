@@ -12,6 +12,7 @@
     <!-- Uikit CSS -->
     <link rel="stylesheet" href="./vendors/css/uikit.min.css">
     <!-- Animate CSS -->
+    <link rel="stylesheet" href="./vendors/css/animate.min.css">
     <link rel="stylesheet" href="./vendors/css/animate.css">
     <!-- Swipper-Slider CSS -->
     <link rel="stylesheet" href="./vendors/css/swiper-bundle.min.css">
@@ -185,7 +186,7 @@
                     </div>
                 </div>
 
-                <div class="service-container">
+                <div class="service-container" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .service-box; delay: 300;">
                     <div class="service-box">
                         <div class="service-icon service-icon-wd"><i class="fa-solid fa-desktop link-purple"></i></div>
                         <div class="service-info">
@@ -230,10 +231,10 @@
     <section id="bussiness">
         <div class="container">
             <div class="wrap">
-                <div class="content-wrap">
-                    <div class="content-img"><img src="./images/bussiness.png" alt=""></div>
+                <div class="content-wrap" uk-grid>
+                    <div class="content-img" uk-scrollspy="cls: uk-animation-slide-left;"><img src="./images/bussiness.png" alt=""></div>
 
-                    <div class="content-info">
+                    <div class="content-info" uk-scrollspy="cls: uk-animation-slide-right;">
                         <div class="busn-title-wrap">
                             <div class="title">
                                 <p>HOW IT WORKS?</p>
@@ -269,9 +270,9 @@
 
         
         <div class="container">
-            <div class="content-wrap solution-wrap">
+            <div class="content-wrap solution-wrap" uk-grid>
 
-                <div class="content-info solution-info">
+                <div class="content-info solution-info" uk-scrollspy="cls: uk-animation-slide-bottom; delay : 300;">
                     <div class="solution-title-wrap">
                         <div class="title">
                             <p>WHY CHOOSE US?</p>
@@ -295,7 +296,7 @@
                     </div>
                 </div>
 
-                <div class="solution-img"><img src="./images/solution.png" alt=""></div>
+                <div class="solution-img" uk-scrollspy="cls: uk-animation-slide-bottom; delay: 300;"><img src="./images/solution.png" alt=""></div>
             </div>
         </div>
     </section>
@@ -305,9 +306,9 @@
     <section id="team">
         <div class="container bg-light-purple">
             <div class="wrap">
-                <div class="team-wrap">
+                <div class="team-wrap" uk-grid>
 
-                    <div class="title-wrap">
+                    <div class="title-wrap" uk-scrollspy="cls: uk-animation-slide-top; delay: 300;">
                         <div class="title">
                             <p>WHAT WE DO?</p>
                             <h2>The full service we are offering is specifically designed to meet your needs.</h2>
@@ -373,9 +374,9 @@
     <section id="design">
         <div class="container">
             <div class="wrap">
-                <div class="design-wrap">
+                <div class="design-wrap" uk-grid>
                     
-                    <div class="title-wrap">
+                    <div class="title-wrap" uk-scrollspy="cls: uk-animation-slide-top; delay: 300;">
                         <div class="title">
                             <p>LATEST PROJECTS</p>
                             <h2>Check out some of our awesome projects with creative ideas and great design.</h2>
@@ -458,7 +459,7 @@
                         <span>Yearly</span>
                     </div>
                     
-                    <div class="pricing-boxes">
+                    <div class="pricing-boxes" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .pricing-box; delay: 300;">
                         <div class="pricing-box">
                             <div class="price">
                                 <span>$</span>
@@ -515,29 +516,29 @@
 
 
 
-            <div class="faq-wrap">
-                <div class="faq-box">
+            <div class="faq-wrap" uk-grid>
+                <div class="faq-box" uk-scrollspy="cls: uk-animation-left;">
                     <div class="faq-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
                     <div class="faq-info">
                         <h3>Can I cancel my subscription?</h3>
                         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod maecenas.</p>
                     </div>
                 </div>
-                <div class="faq-box">
+                <div class="faq-box" uk-scrollspy="cls: uk-animation-right; delay: 300;">
                     <div class="faq-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
                     <div class="faq-info">
                         <h3>Which payment methods do you accept?</h3>
                         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod maecenas.</p>
                     </div>
                 </div>
-                <div class="faq-box">
+                <div class="faq-box" uk-scrollspy="cls: uk-animation-left; delay: 300;">
                     <div class="faq-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
                     <div class="faq-info">
                         <h3>How can I manage my Account?</h3>
                         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod maecenas.</p>
                     </div>
                 </div>
-                <div class="faq-box">
+                <div class="faq-box" uk-scrollspy="cls: uk-animation-right; delay: 300;">
                     <div class="faq-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
                     <div class="faq-info">
                         <h3>Is my credit card information secure?</h3>
@@ -570,8 +571,8 @@
     <footer>
         <div class="container bg-footer border-radius">
             <div class="wrap">
-                <div class="ft-wrap">
-                    <div class="ft-brand">
+                <div class="ft-wrap" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .ft-animate; delay: 300;">
+                    <div class="ft-brand ft-animate">
                         <div class="ft-logo"><a href=""><img src="./images/logo.png" alt=""></a></div>
                         <p>© 2022 Sandbox. All rights reserved.</p>
                         <div class="ft-social">
@@ -582,13 +583,13 @@
                            <a href=""><i class="fa-brands fa-youtube"></i></a>
                         </div>
                     </div>
-                    <div class="ft-contact">
+                    <div class="ft-contact ft-animate">
                         <h4 class="ft-title">Get in Touch</h4>
                         <p>Moonshine St. 14/05 Light City, London, United Kingdom</p>
                         <a href="">info@email.com</a>
                         <p>00 (123) 456 78 90</p>
                     </div>
-                    <div class="ft-more">
+                    <div class="ft-more ft-animate">
                         <h4 class="ft-title">Learn More</h4>
                         <ul class="ft-menu">
                             <li><a href="">About Us</a></li>
@@ -598,7 +599,7 @@
                             <li><a href="">Privacy Policy</a></li>
                         </ul>
                     </div>
-                    <div class="ft-subscribe">
+                    <div class="ft-subscribe ft-animate">
                         <h4 class="ft-title">Our Newsletter</h4>
                         <p>Subscribe to our newsletter to get our news & deals delivered to you.</p>
                         <div class="send">

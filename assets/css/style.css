@@ -740,6 +740,12 @@ ul.nav-primaryMenu > li > a i {
     margin-right: 50px;
 }
 
+.uk-grid>*{
+    padding-left: 0 !important;
+}
+.uk-grid{
+    margin-left: 0 !important;
+}
 
 /* ===  CONTENT & SOLUTION PART IMG MARGING  == */
 
@@ -1099,7 +1105,7 @@ ul.nav-primaryMenu > li > a i {
     flex-basis: 300px;
     box-shadow: 0 0 0 0.05rem rgba(8,60,130,.06), 0 0 1.25rem rgba(30,34,40,.04);
     margin-right: 35px;
-    padding: 30px 50px;
+    padding: 30px 50px !important;
 }
 
 .price {
